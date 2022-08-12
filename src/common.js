@@ -9,7 +9,7 @@ const initDb = () => {
   const mongoose = require("mongoose");
   //CONNECT DB
   mongoose
-    .connect("mongodb+srv://thienbui91:thienbui91@cluster0.7yg5e.mongodb.net/<dbname>?retryWrites=true&w=majority", {
+    .connect("mongodb+srv://lamhy:525353@cluster0.tonxdfs.mongodb.net/?retryWrites=true&w=majority", {
       useUnifiedTopology: true,
       useNewUrlParser: true,
       useFindAndModify: false,
@@ -60,7 +60,7 @@ const fs = require("fs");
 var imgbbUploader = require("imgbb-uploader");
 const fetch = require("node-fetch");
 const cloneImage = async (urlImage) => {
-  const API_IMG_BB = "277bf5c2c5bdaa3fed67ab83c8a78af2";
+  const API_IMG_BB = "d5672c7e995dfd437a6a9ba369d20f0d";
   console.log({ urlImage });
   if (!urlImage) {
     return "";
